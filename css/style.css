@@ -45,6 +45,8 @@ a.navbar-brand .bold {
     font-size: 33px;
     color:white;
     padding-top: 1%;
+   position: relative;
+   top: 250px;
 }
 .subheading {
 	font-size: 14px;
@@ -236,6 +238,8 @@ section#about {
 #home h3 {
     line-height: 2;
     font-size: 22px;
+    position: relative;
+    top:300px;
 }
 /* about section */
 #about .col-md-4 .fa {
