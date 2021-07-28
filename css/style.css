@@ -204,27 +204,14 @@ section#about {
     padding: 1%;
     color: #272424;}
 #home {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.2), 
-    rgba(0, 0, 0, 0.2)
-  ),
-  url('../img/background/background4\(2\).jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size:cover;
+  background-image:  url(../img/background/background4.jpg);
   background-size: cover;
-  background-position: auto;
-  display: block;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 100vh;
-  text-align: center;
+  background-repeat: no-repeat;
+ 
+  background-position: center center;
+  background-size: cover;
+  text-align: center;  
 }
 #home hr {
   border: 2px solid white;
